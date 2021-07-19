@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://cryptic-earth-41700.herokuapp.com/v1';
+  const apiRoot = 'https://cryptic-earth-41700.herokuapp.com/v1/';
   const trelloApiRoot = 'https://cryptic-earth-41700.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
